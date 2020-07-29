@@ -1,0 +1,223 @@
+    .bck {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.158)), url("https://source.unsplash.com/1600x900/?students,study,dark");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    button:hover {
+        background-color: cornflowerblue;
+        transition-delay: 0.2s;
+    }
+    
+    .wholetext {
+        display: block;
+        /* width: 50%; */
+        height: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Aclonica', sans-serif;
+    }
+    
+    a {
+        color: cornflowerblue;
+        font-weight: bold;
+    }
+    
+    .t1,
+    .t2,
+    .t3 {
+        /* display: inline-block; */
+        position: relative;
+        top: 40%;
+        font-size: 35pt;
+        color: rgb(219, 206, 180);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .t3 {
+        font-size: 15pt;
+        color: rgb(255, 121, 97);
+        text-transform: lowercase;
+        font-style: italic;
+    }
+    
+    .tt {
+        width: 100%;
+        height: 100%;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    
+    .about {
+        padding-top: 8vh;
+        font-size: 30pt;
+        font-family: 'Aclonica', sans-serif;
+        color: rgb(8, 20, 8);
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .pt {
+        padding: 30px;
+    }
+    
+    .navbarme {
+        /* position: sticky; */
+        top: 0px;
+        z-index: 333;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 80px;
+        /* background-color: black; */
+        padding-top: 33px;
+    }
+    
+    #navbar1 li {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding: 20px;
+    }
+    
+    #navbar1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+        /* border-bottom: 20px solid turquoise; */
+    }
+    
+    #navbar1 li a {
+        color: rgb(255, 204, 110);
+        font-size: 15pt;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #navbar1 li a:hover {
+        color: darkgoldenrod;
+    }
+    
+    #navbar1 ul {
+        margin-bottom: 0rem;
+        padding: 0;
+    }
+    
+    #navbar1 #spa {
+        font-size: 20pt;
+        color: honeydew;
+        font-weight: bold;
+    }
+    
+    th,
+    td,
+    tr {
+        font-size: 13pt;
+        text-align: center;
+        font-weight: bold;
+        /* position: sticky;
+    top: 0; */
+    }
+    
+    #ist {
+        background-color: cornflowerblue;
+    }
+    /* tr:nth-child(even) {
+    background-color: rgb(144, 164, 172);
+} */
+    /* tr:nth-child(odd) {
+    background-color: rgb(144, 255, 231);
+} */
+    
+    .cm {
+        margin-top: 20px;
+        height: 8vh;
+        background-image: linear-gradient(rgba(30, 49, 112, 0.644), rgb(30, 49, 112));
+        color: rgb(116, 153, 119);
+        font-weight: bold;
+        text-align: center;
+        font-size: 20pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Aclonica', sans-serif;
+    }
+    
+    @media (min-width: 300px) and (max-width: 760px) {
+        .t1,
+        .t2 {
+            font-size: 18pt;
+            margin-bottom: 15px;
+        }
+        .t3 {
+            font-size: 8pt;
+        }
+        .navbarme {
+            padding-top: 5px;
+        }
+        #navbar1 #spa {
+            font-size: 10pt;
+        }
+        #navbar1 li a {
+            font-size: 7.5pt;
+        }
+        #navbar1 li {
+            padding: 14px;
+        }
+        .about {
+            padding-top: 8vh;
+            font-size: 15pt;
+        }
+        tr,
+        td,
+        th {
+            font-size: 10pt;
+        }
+        .cm {
+            font-size: 10pt;
+        }
+    }
+    /* MAC DE PANGE */
+    
+    @media (min-width:1460px) and (max-width:1860px) {
+        .t1,
+        .t2 {
+            font-size: 60pt;
+            margin-bottom: 45px;
+        }
+        .t3 {
+            font-size: 24pt;
+        }
+        .navbarme {
+            padding-top: 45px;
+        }
+        #navbar1 #spa {
+            font-size: 30pt;
+        }
+        #navbar1 li a {
+            font-size: 24pt;
+        }
+        #navbar1 li {
+            padding: 34px;
+        }
+        .about {
+            padding-top: 8vh;
+            font-size: 45pt;
+        }
+        tr,
+        td,
+        th {
+            font-size: 18pt;
+        }
+        .cm {
+            font-size: 30pt;
+        }
+    }
